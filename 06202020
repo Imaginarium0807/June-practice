@@ -23,3 +23,17 @@ class eating:
 x = eating("cucumber","lamp")
 
 x.tell_food()
+--
+class eating:
+    def __init__(self,veg,meat):
+        self.veggie2 = veg
+        self.meat2= meat
+    def tell_food(self):
+        print(self.veggie2,self.meat2)
+x = eating("cucumber","lamp")
+
+x.tell_food()
+class eating2(eating):
+    pass
+y = eating2("watermelon","beef")
+y.tell_food()
