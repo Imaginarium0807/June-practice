@@ -1,0 +1,25 @@
+class Person:
+    def printname(self):
+        print(self.firstname, self.lastname)
+x = Person()
+x.lastname = 'www'
+x.firstname = 'ttt'
+x.printname()
+--
+class robot:
+    def tell_who3(self):
+        print("the person i need to tell is " + self.pcname)
+r1 = robot()
+r1.pcname = 'shawn'
+r1.tell_who3()
+
+--
+class eating:
+    def __init__(self,veg,meat):
+        self.veggie2 = veg
+        self.meat2= meat
+    def tell_food(self):
+        print(self.veggie2,self.meat2)
+x = eating("cucumber","lamp")
+
+x.tell_food()
