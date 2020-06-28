@@ -1,0 +1,12 @@
+import random, string
+
+def randomword(length):
+   letters = string.ascii_lowercase
+   return ''.join(random.choice(letters) for i in range(length))
+   randomword(6)
+   
+   --
+   res = [random.randrange(1, 50, 1) for i in range(7)] 
+  
+# printing result 
+print ("Random number list is : " +  str(res)) 
